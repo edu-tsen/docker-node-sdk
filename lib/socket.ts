@@ -21,6 +21,7 @@ export class SocketAgent extends Agent {
 
                 return socket;
             },
+            bodyTimeout: 0,
         });
     }
 }
